@@ -1,0 +1,2 @@
+MainPackage=C:\Users\joice_000\Desktop\mobileproject\cortanaApp\cortanaApp\bin\ARM\Debug\cortanaApp_0.1.0.0_ARM_Debug.appx
+SymbolPackage=C:\Users\joice_000\Desktop\mobileproject\cortanaApp\cortanaApp\AppPackages\cortanaApp_0.1.0.0_Debug_Test\cortanaApp_0.1.0.0_ARM_Debug.appxsym

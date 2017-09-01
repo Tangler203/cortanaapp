@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="cortanaApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:cortanaApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:ConnectionId='1' x:Name="textBlockTitle" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Number Genie" VerticalAlignment="Top" TextAlignment="Center" FontSize="30" Margin="10,10,0,0" Width="340" Height="62"/>
+        <Button x:ConnectionId='2' x:Name="button" Content="New Random Number" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="95,350,0,0"                     />
+        <TextBox x:ConnectionId='3' x:Name="textBox1" InputScope="Number" TextAlignment="Center" HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Top" Margin="95,273,0,0" Width="168"/>
+        <TextBlock x:ConnectionId='4' x:Name="ResponseBlock" TextAlignment="Center" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Guess the number by typing in the text box" VerticalAlignment="Top" Margin="95,201,0,0" Width="168"/>
+        <Button x:ConnectionId='5' x:Name="guessbutton" Content="Guess" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="95,313,0,0" Width="168"                          />
+        <TextBlock x:ConnectionId='6' x:Name="textBlock25" HorizontalAlignment="Right" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Margin="0,124,159,0" Height="72"/>
+
+    </Grid>
+</Page>
+

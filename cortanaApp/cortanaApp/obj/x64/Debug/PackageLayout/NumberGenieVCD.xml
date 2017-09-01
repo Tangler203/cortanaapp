@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en-us" Name="NumberGenieCommandSet_en-us">
+    <AppName> Number Genie </AppName>
+    <Example>Start Number Genie </Example>
+
+    <Command Name="startNumberGenie">
+      <Example> Start Number Genie </Example>
+      <ListenFor RequireAppName="ExplicitlySpecified"> Start {builtin:AppName}</ListenFor>
+      <Feedback> Starting number genie </Feedback>
+      <Navigate Target="MainPage.xaml" />
+    </Command>
+
+    <Command Name="guessnumber">
+      <Example> Try Number 34 </Example>
+      <ListenFor RequireAppName="BeforePhrase"> Try [number] {number}</ListenFor>
+      <Feedback> Guessing {number} </Feedback>
+      <Navigate />
+    </Command>
+
+    <PhraseTopic Label="number">
+    </PhraseTopic>
+
+  </CommandSet>
+</VoiceCommands>

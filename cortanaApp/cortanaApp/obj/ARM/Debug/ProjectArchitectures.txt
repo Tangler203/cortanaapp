@@ -1,0 +1,1 @@
+C:\Users\joice_000\Desktop\mobileproject\cortanaApp\cortanaApp\cortanaApp.csproj;arm
